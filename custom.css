@@ -1,0 +1,78 @@
+  a { color: #0000FF; text-decoration: none }
+  a:visited {color: #0095DA }
+  a:hover {color: #F58220; text-decoration: underline }
+  a.weblink {color: #0000FF; text-decoration: underline }
+  a.weblink:visited {color: #0095DA}
+  a.weblink:hover {color: #F58220 }
+  a.popuplink {color: #FF0000; text-decoration: none}
+  a.popuplink:visited {color: #0095DA}
+  a.popuplink:hover {color: #F58220; text-decoration: underline}
+  a.filelink {color: #04BC14; text-decoration: none}
+  a.filelink:visited {color: #0095DA}
+  a.filelink:hover {color: #F58220; text-decoration: underline}
+  a.inline-toggle {color: Green; text-decoration: none;  font-weight: bold;  font-family: "Times New Roman", serif;     }
+  a.inline-toggle:visited {color: #0095DA; }
+  a.inline-toggle:hover {color: #F58220; text-decoration: underline}
+  .fsmall {
+        font-size: 10px;
+	font-family: Verdana, Helvetica, sans-serif;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	}
+  .crumbs {font-size: 8pt; margin-bottom: 3px; margin-top: 0px; color: #FFFFFF}
+  .crumbs a {text-decoration: underline; color: #FFFFFF}
+  .crumbs a:visited {text-decoration: underline; color: #0095DA}
+  .crumbs a:hover {color: #F58220}
+ 
+@media screen{
+  #idcontent {    
+      width: 100%; 
+      padding: 0px !important; 
+      padding: 10px 15px 5px 10px; 
+      position: relative; 
+   } 
+  #innerdiv {    
+      padding: 10px 5px 5px 10px !important;  
+      padding: 0px; 
+   } 
+   
+    .topichead {
+       padding: 5px;
+    }
+    
+    .navlinks {
+      font-size: 10pt;
+    }
+    .navlinks a {
+      text-decoration: none;
+      color: blue;
+    }
+    .navlinks a:visited {
+      text-decoration: none;
+      color: #0095DA;
+    }
+    .navlinks a:hover {
+      text-decoration: underline;
+      color: #F58220;
+    }
+    
+   html.nonscroll { 
+      overflow:hidden; 
+   } 
+   body.nonscroll {    
+      overflow:hidden; 
+      height:100%; 
+   } 
+   div.nonscroll { 
+      overflow-x:auto;
+      overflow-y:scroll; 
+   } 
+}
+
+
+
+
+
+
+
+
